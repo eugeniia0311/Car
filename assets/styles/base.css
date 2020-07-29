@@ -20,6 +20,15 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 	clip-path: polygon(47.5% 0%, 100% 47%, 54.5% 75%, 0% 27.5%);
 }
 
+.window {
+	position: absolute;
+	left: 20px;
+	width: 130px;
+    height: 140px;
+    background-color: #6cd3e0;
+    clip-path: polygon(0% 0%, 0% 0%, 100% 100%, 0% 100%);
+}
+
 img {
 	max-width: 100%;
 }
