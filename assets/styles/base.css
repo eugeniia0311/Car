@@ -4,6 +4,23 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 	font-family: "Trebuchet MS";
 }
 
+body {
+	background-color: #000917;
+}
+
+
+.title {
+	color: white;
+    font-size: 78px;
+    position: absolute;
+    top: 155px;
+    left: 82px;
+    font-style: italic;
+    font-family: fantasy;
+    opacity: 95%;
+    animation: shinings 4s infinite;
+}
+
 .line{
 	position: absolute;
 	top: 135px;
@@ -25,10 +42,10 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 
 .window {
 	position: absolute;
-	top: 256px;
-    left: 799px;
-    width: 135px;
-    height: 154px;
+	top: 10.5%;
+    left: 443px;
+    width: 123px;
+    height: 150px;
     background-color: #6cd3e0;
     clip-path: polygon(0% 0%, 0% 0%, 100% 100%, 0% 100%);
 }
@@ -81,8 +98,9 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
     height: 135px;
     background-color: #ff3636;
     clip-path: polygon(47.5% 0%, 47.5% 33%, -50% 89%, 0% 27.5%);
+    box-shadow:0 0 17px #ff3636;
+    animation: shining 2s infinite;
 }
-
 
 .yellow {
 	position: relative;
@@ -105,39 +123,39 @@ a {
 .corpus{
 	position: absolute;
 	top: 235px;
-	left: 16.7%;
-	width: 700px;
-	height: 270px;
-	background-color: #790000;
-	clip-path: polygon(55.8% 0%, 80% 0%, 100% 66%, 100% 66%, 100% 100%, 80% 100%, 75% 85%, 65% 85%, 60% 100%, 40% 100%, 35% 85%, 25% 85%, 20% 100%, 0% 100%, 0% 66%, 25.8% 66%);
-}
+    left: 327px;
+    width: 631px;
+    height: 270px;
+    background-color: #790000;
+    clip-path: polygon(50.8% 0%, 80% -5%, 100% 61%, 100% 66%, 100% 100%, 83% 100%, 78% 85%, 68% 85%, 63% 100%, 40% 100%, 36% 85%, 25% 85%, 20% 100%, 0% 100%, 0% 66%, 25.8% 66%);
+  }
 
 .front{
-	position: absolute;
+    position: absolute;
 	top: 314px;
-	left: 16.7%;
-	height:100px;
-	width:300px;
-	clip-path: polygon(45% 0%, 100% 0%, 60% 100%, 0% 100%);
-	background-color: #610000;
+    left: 327px;
+    height: 100px;
+    width: 271px;
+    clip-path: polygon(45% 0%, 100% -19%, 60% 100%, 0% 100%);
+    background-color: #610000;
 }
 
 .window.-side{
 	position: absolute;
-	width: 320px;
-	height: 150px;
-	left: 30%;
-	top: 10%;
-	background-color:  #6cd3e0;
-	clip-path: polygon(57% 0%, 100% 0%, 100% 100%, 0% 100%);
+	width: 230px;
+    height: 150px;
+    left: 30%;
+    top: 10%;
+    background-color: #6cd3e0;
+    clip-path: polygon(57% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .hood{
 	position: absolute;
 	clip-path: polygon(37% 0%, 100% 0%, 70% 100%, 0% 100%);
 	background-color: #400000;
-	height:70px;
-	width:250px;
+	height: 70px;
+	width: 240px;
 	top: 15px;
 	right: 0;
 }
@@ -149,5 +167,60 @@ a {
 	background-color:#f4df3a;
 	left: 0;
 	bottom: 10%;
-	border-left:3px #d2aa26 solid;
+	border-left: 6px #d2aa26 solid;
+}
+
+.elips {
+	position: absolute;
+    top: 200px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #610000;
+    box-shadow:0 0 3px #000;
+}
+
+@keyframes shinings {
+
+	0% {
+		opacity: .4;
+	}
+
+	50% {
+		opacity: .7;
+	}
+
+	100% {
+		opacity: .4;
+	}
+}
+
+
+
+@keyframes shining {
+
+	0% {
+		opacity: .4;
+	}
+
+	25% {
+		opacity: .7;
+	}
+
+	50% {
+		opacity: .1;
+	}
+
+	65% {
+		opacity: .1;	
+	}
+
+	75% {
+		opacity: .7;
+	}
+
+	100% {
+		opacity: 0.4;
+	}
 }
