@@ -1,0 +1,97 @@
+/*
+.one{
+	position: absolute;
+	border-top: 2.5px white solid;
+	border-bottom:  2.5px white solid;
+	border-radius: 2px;	
+	width: 50px;
+	height: 1px;
+	top:10%;
+	right: 20%; 
+	opacity: 70%;
+}
+
+.two{
+	position: absolute;
+	border-top: 2.5px white solid;
+	border-bottom:  2.5px white solid;
+	border-radius: 2px;
+	width: 60px;
+	height: 1px;
+	top:23.5%;
+	right: 35%;
+	rotate:-50deg;
+	background-color: white;
+	opacity: 70%;
+}
+
+
+.three{
+	position: absolute;
+	border-top: 2.5px white solid;
+	border-bottom:  2.5px white solid;
+	border-radius: 2px;
+	width: 60px;
+	height: 1px;
+	top:50%;
+	left: 18%;
+	rotate:50deg;
+	background-color: white;
+	opacity: 70%;	
+}
+
+.four{
+		position: absolute;
+	border-top: 2.5px white solid;
+	border-bottom:  2.5px white solid;
+	border-radius: 2px;
+	width: 50px;
+	height: 1px;
+	top:10%;
+	right: 37%;
+	rotate:48deg;
+	background-color: white;
+	opacity: 70%;	
+}
+
+.five{
+		position: absolute;
+	border-top: 2.5px white solid;
+	border-bottom:  2.5px white solid;
+	border-radius: 2px;
+	width: 60px;
+	height: 1px;
+	top:10%;
+	right: 50%;
+	rotate:-37deg;
+	background-color: white;
+	opacity: 70%;	
+}
+
+
+.six{
+		position: absolute;
+	border-top: 2.5px white solid;
+	border-bottom:  2.5px white solid;
+	border-radius: 2px;
+	width:15px;
+	height: 1px;
+	top:10%;
+	right: 48%;
+	rotate:48deg;
+	background-color: white;
+	opacity: 70%;
+}
+
+.seven{
+	position: absolute;
+	border-top: 2.5px #610000 solid;
+	border-bottom:  2.5px #610000 solid;
+	border-radius: 2px;
+	width: 40px;
+	height: 1px;
+	bottom:25%;
+	left: 10%;
+	rotate:-40deg;
+	background-color: #610000;
+}

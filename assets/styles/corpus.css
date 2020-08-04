@@ -1,0 +1,88 @@
+.corpus {
+position: absolute;
+    top: 235px;
+    left: 413px;
+    width: 545px;
+    height: 270px;
+    background-color: #790000;
+    clip-path: polygon(42.8% 0%, 80% -5%, 100% 61%, 100% 66%, 100% 100%, 83% 100%, 78% 85%, 68% 85%, 63% 100%, 40% 100%, 36% 85%, 25% 85%, 20% 100%, 0% 100%, 0% 66%, 25.8% 66%);
+}
+.trunk {
+	position: absolute;
+	top: 313px;
+    left: 957px;
+    width: 300px;
+    height: 300px;
+    background-color: #610000;
+    clip-path: polygon(47.5% 0%, 47.5% 30%, -50% 100%, 0% 34%);
+}
+
+.roof {
+	position: absolute;
+	left: 643px;
+    top: -43px;
+	width: 300px;
+	height: 375px;
+	background-color: #610000;
+	clip-path: polygon(47.5% 47.5%, 100% 47.5%, 52.5% 75%, 0% 75%);
+}
+
+.line{
+	position: absolute;
+	top: 135px;
+    left: 800px;
+	width: 300px;
+	height: 375px;
+	background-color: #610000;
+	clip-path: polygon(47.5% 0%, 100% 47.5%, 52.5% 75%, 0% 27.5%);
+}
+
+.elips {
+	position: absolute;
+    top: 200px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #610000;
+    box-shadow:0 0 3px #000;
+}
+ы
+.hood{
+	position: absolute;
+    clip-path: polygon(42% 0%, 100% 0%, 70% 100%, 0% 100%);
+    background-color: #400000;
+    height: 70px;
+    width: 180px;
+    top: 15px;
+    right: 0;
+}
+
+/*.....ниже..детали..корпуса......*/
+
+.door{
+	position: absolute;
+	border-right: 2.5px #400000 solid;
+	border-left:  2.5px #400000 solid;
+	border-radius: 2px;
+	height: 45px;
+	width: 1px;
+	right: 34.2%;
+	bottom: 14%;
+	background-color: #400000;
+}
+
+.handle{
+	position: absolute;
+	border-top: 2.5px #400000 solid;
+	border-bottom:  2.5px #400000 solid;
+	border-radius: 2px;
+	width: 50px;
+	height: 1px;
+	bottom: 26%;
+	right: 37%;
+	background-color: #400000; 
+}
+
+
+

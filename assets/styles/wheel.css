@@ -1,0 +1,34 @@
+.wheel {
+	position: absolute;
+	width: 105px;
+	height: 105px;
+	background-color: #363636;
+	border-radius: 50%;
+	border: 23px black solid;
+	top: 450px;
+	box-sizing: border-box;
+
+}
+
+.wheel.-left{
+	left: 526px;
+}
+
+.wheel.-right{
+   left: 760px;
+}
+
+.mark.-black {
+	position: absolute;
+	background-color: #171717;
+    opacity: 100%;
+    top: 497px;
+    left: 560px;
+    width: 93px;
+    height: 49px;
+    clip-path: polygon(20% 0%, 100% 16%, 53% 100%, 0% 100%);
+}
+
+.mark.-black.-right {
+	left: 793px;
+} 

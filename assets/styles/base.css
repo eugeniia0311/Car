@@ -8,134 +8,6 @@ body {
 	background-color: #000917;
 }
 
-.road{
-position: absolute;
-height: 50%;
-width: 100%;
-background-color: #262626;
-bottom: 0;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-
-.hill.-one{
-	position: absolute;
-	width: 40%;
-	height: 20%;
-	background-color: #022c15;
-	top: 34%;
-	clip-path: polygon(0% 0%, 5% 20%, 12% 5%, 16% 7%, 23% 0%,  100% 20%, 100% 100%, 0% 100%);
-}
-
-.hill.-two{
-	position: absolute;
-	width: 70%;
-	height: 30%;
-	background-color:#01150a;
-	top: 24%;
-	right: 0;
-	clip-path: polygon(0% 50%, 5% 20%, 12% 25%, 17% 5%, 25% 0%, 30% 10%, 45% 1%, 60% 20%, 80% 40%, 100% 30%, 100% 100%, 0% 100% );
-}
-
-
-.title {
-	color: white;
-    font-size: 78px;
-    position: absolute;
-    top: 155px;
-    left: 82px;
-    font-style: italic;
-    font-family: fantasy;
-    opacity: 95%;
-    animation: shinings 4s infinite;
-    z-index: 1;
-}
-
-.line{
-	position: absolute;
-	top: 135px;
-    left: 800px;
-	width: 300px;
-	height: 375px;
-	background-color: #610000;
-	clip-path: polygon(47.5% 0%, 100% 47.5%, 52.5% 75%, 0% 27.5%);
-}
-.glass{
-	position: absolute;
-	top: 12px;
-    left: 15px;
-	width: 270px;
-	height: 345px;
-	background-color: #6cd3e0;
-	clip-path: polygon(47.5% 0%, 100% 47%, 54.5% 75%, 0% 27.5%);
-}
-
-.window {
-	position: absolute;
-	top: 10.5%;
-    left: 443px;
-    width: 123px;
-    height: 150px;
-    background-color: #6cd3e0;
-    clip-path: polygon(0% 0%, 0% 0%, 100% 100%, 0% 100%);
-}
-
-.roof {
-	position: absolute;
-	left: 643px;
-    top: -43px;
-	width: 300px;
-	height: 375px;
-	background-color: #610000;
-	clip-path: polygon(47.5% 47.5%, 100% 47.5%, 52.5% 75%, 0% 75%);
-}
-
-.trunk {
-	position: absolute;
-	top: 313px;
-    left: 957px;
-    width: 300px;
-    height: 300px;
-    background-color: #610000;
-    clip-path: polygon(47.5% 0%, 47.5% 30%, -50% 100%, 0% 34%);
-}
-
-.relative {
-	position: relative;
-}
-
-
-.headlight {
-	position: absolute;
-	top: 69px;
-    left: 10px;
-    width: 105px;
-    height: 135px;
-    background-color: #f59038;
-    clip-path: polygon(47.5% 0%, 47.5% 33%, -50% 89%, 0% 27.5%);
-}
-
-.headlight.-second {
-	left: 85px;
-    top: 13px;
-}
-
-.lamp {
-	position: absolute;
-	top: -1px;
-    left: 10px;
-    width: 105px;
-    height: 135px;
-    background-color: #ff3636;
-    clip-path: polygon(47.5% 0%, 47.5% 33%, -50% 89%, 0% 27.5%);
-    box-shadow:0 0 17px #ff3636;
-    animation: shining 2s infinite;
-}
-
-.yellow {
-	position: relative;
-}
 img {
 	max-width: 100%;
 }
@@ -148,69 +20,37 @@ a {
 	text-decoration: none;
 }
 
-
-/*......*/
-
-.corpus{
-	position: absolute;
-	top: 235px;
-    left: 327px;
-    width: 631px;
-    height: 270px;
-    background-color: #790000;
-    clip-path: polygon(50.8% 0%, 80% -5%, 100% 61%, 100% 66%, 100% 100%, 83% 100%, 78% 85%, 68% 85%, 63% 100%, 40% 100%, 36% 85%, 25% 85%, 20% 100%, 0% 100%, 0% 66%, 25.8% 66%);
-  }
-
-.front{
+.title {
+	color: white;
+    font-size: 97px;
     position: absolute;
-	top: 314px;
-    left: 327px;
+    top: 120px;
+    left: 82px;
+    font-style: italic;
+    font-family: fantasy;
+    opacity: 95%;
+    animation: shinings 4s infinite;
+    z-index: 1;
+}
+
+.relative {
+	position: relative;
+}
+
+.yellow {
+	position: relative;
+}
+
+.front {
+	position: absolute;
+    top: 314px;
+    left: 409px;
     height: 100px;
-    width: 271px;
-    clip-path: polygon(45% 0%, 100% -19%, 60% 100%, 0% 100%);
+    width: 210px;
+    clip-path: polygon(51% 0%, 100% -19%, 70% 100%, 0% 100%);
     background-color: #610000;
 }
 
-.window.-side{
-	position: absolute;
-	width: 230px;
-    height: 150px;
-    left: 30%;
-    top: 10%;
-    background-color: #6cd3e0;
-    clip-path: polygon(57% 0%, 100% 0%, 100% 100%, 0% 100%);
-}
-
-.hood{
-	position: absolute;
-	clip-path: polygon(37% 0%, 100% 0%, 70% 100%, 0% 100%);
-	background-color: #400000;
-	height: 70px;
-	width: 240px;
-	top: 15px;
-	right: 0;
-}
-
-.frontlight{
-	position: absolute;
-	width: 30px;
-	height: 50px;
-	background-color:#f4df3a;
-	left: 0;
-	bottom: 10%;
-	border-left: 6px #d2aa26 solid;
-}
-
-.elips {
-	position: absolute;
-    top: 200px;
-    right: 40px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #610000;
-    box-shadow:0 0 3px #000;
-}
 
 @keyframes shinings {
 
@@ -255,163 +95,3 @@ a {
 		opacity: 0.4;
 	}
 }
-
-
-/*.......................*/
-
-.door{
-	position: absolute;
-	border-right: 2.5px #400000 solid;
-	border-left:  2.5px #400000 solid;
-	border-radius: 2px;
-	height: 45px;
-	width: 1px;
-	right: 34.2%;
-	bottom: 14%;
-}
-
-.handle{
-	position: absolute;
-	border-top: 2.5px #400000 solid;
-	border-bottom:  2.5px #400000 solid;
-	border-radius: 2px;
-	width: 50px;
-	height: 1px;
-	bottom: 26%;
-	right: 37%; 
-}
-
-.one{
-	position: absolute;
-	border-top: 2.5px white solid;
-	border-bottom:  2.5px white solid;
-	border-radius: 2px;	
-	width: 50px;
-	height: 1px;
-	top:10%;
-	right: 20%; 
-	opacity: 70%;
-}
-
-.two{
-	position: absolute;
-	border-top: 2.5px white solid;
-	border-bottom:  2.5px white solid;
-	border-radius: 2px;
-	width: 60px;
-	height: 1px;
-	top:23.5%;
-	right: 35%;
-	rotate:-50deg;
-	background-color: white;
-	opacity: 70%;
-}
-
-
-.three{
-	position: absolute;
-	border-top: 2.5px white solid;
-	border-bottom:  2.5px white solid;
-	border-radius: 2px;
-	width: 60px;
-	height: 1px;
-	top:50%;
-	left: 18%;
-	rotate:50deg;
-	background-color: white;
-	opacity: 70%;	
-}
-
-.four{
-		position: absolute;
-	border-top: 2.5px white solid;
-	border-bottom:  2.5px white solid;
-	border-radius: 2px;
-	width: 50px;
-	height: 1px;
-	top:10%;
-	right: 37%;
-	rotate:48deg;
-	background-color: white;
-	opacity: 70%;	
-}
-
-.five{
-		position: absolute;
-	border-top: 2.5px white solid;
-	border-bottom:  2.5px white solid;
-	border-radius: 2px;
-	width: 60px;
-	height: 1px;
-	top:10%;
-	right: 50%;
-	rotate:-37deg;
-	background-color: white;
-	opacity: 70%;	
-}
-
-
-.six{
-		position: absolute;
-	border-top: 2.5px white solid;
-	border-bottom:  2.5px white solid;
-	border-radius: 2px;
-	width:15px;
-	height: 1px;
-	top:10%;
-	right: 48%;
-	rotate:48deg;
-	background-color: white;
-	opacity: 70%;
-}
-
-.seven{
-	position: absolute;
-	border-top: 2.5px #610000 solid;
-	border-bottom:  2.5px #610000 solid;
-	border-radius: 2px;
-	width: 40px;
-	height: 1px;
-	bottom:25%;
-	left: 10%;
-	rotate:-40deg;
-	background-color: #610000;
-}
-
-.wheel{
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	background-color: #363636;
-	border-radius: 50%;
-	border: 20px #565656 solid;
-	top: 63.5%;
-	box-sizing: border-box;
-
-}
-
-.wheel.-left{
-	left: 30.5%;
-}
-
-.wheel.-right{
-	left: 48%;
-}
-
-.lower-part{
-	position: absolute;
-	width: 500px;
-	height: 100px;
-	background-color:  #300000;
-	top:55%;
-	left: 30%;
-}
-
-.mark{
-	width: 150px;
-	height: 30px;
-	background-color: white;
-	opacity: 70%;
-	clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
-}
-
