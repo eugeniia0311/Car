@@ -1,0 +1,68 @@
+.town {
+	position: absolute;
+	height: 63%;
+	width: 100%;
+	background-color: black;
+	bottom: 0;
+	display: flex;
+}
+
+.house {
+	position: absolute;
+	background-color: black;
+}
+
+.house.-m {
+	width: 70px;
+	height: 200px;
+}
+
+.house.-s {
+	width: 50px;
+	height: 140px;
+}
+
+.house.-l {
+	width: 80px;
+	height: 160px;
+}
+
+.house:first-child {
+	top: -70px;
+}
+.house:nth-child(2) {
+	top: -90px;
+	left: 1100px;
+}
+.house:nth-child(3) {
+	top: -80px;
+	right: 120px;
+}
+.house:nth-child(4) {
+	top: -70px;
+	right: 0px;
+}
+.house:nth-child(5) {
+	top: -30px;
+	right: 50px;
+}
+.house:nth-child(6) {
+	top: -30px;
+	right: 200px;
+}
+.house:nth-child(7) {
+	top: -90px;
+	right: 270px;
+}
+.house:nth-child(8) {
+	top: -90px;
+	left: 680px;
+}
+.house:nth-child(9) {
+	top: -50px;
+	left: 640px;
+}
+.house:last-child {
+	top: -40px;
+	right: 340px;
+}
